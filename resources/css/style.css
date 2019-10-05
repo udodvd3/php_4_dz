@@ -1,0 +1,8 @@
+h1{
+    text-shadow: 1px 1px 3px black;
+    color: ghostwhite;
+    -webkit-text-stroke: 1px grey;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}

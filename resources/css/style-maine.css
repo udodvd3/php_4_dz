@@ -1,0 +1,110 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*reset END*/
+body{
+    background: url(../img/background.jpg) center top no-repeat;
+    background-size: cover;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+header {
+    width: 100%;
+    height: 115px;
+    background: #171717cf;
+    border-bottom: 1px solid #88771d;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+}
+header nav > a > img{
+    max-width: 200px;
+}
+nav ,.wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+.wrapper h1{
+    color: #fff;
+    text-align: center;
+    margin: 20px 0 40px;
+    font-size: 30px;
+    text-shadow: 1px 1px 0px black, 2px 1px 3px white, 1px -1px 0px black, -1px -1px 0px black, 0px 1px 0px black, 1px 0px 0px black, 1px -1px 3px white;
+}
+.wrapper p{
+    color: #fff;
+    text-align: left;
+    margin: 5px 0 10px;
+    font-size: 18px;
+    font-weight: lighter;
+    text-shadow: 1px 1px 0px black, 2px 1px 3px white, 1px -1px 0px black, -1px -1px 0px black, 0px 1px 0px black, 1px 0px 0px black, 1px -1px 3px white;
+}
+nav ,header nav >ul{
+    display: flex;
+}
+header nav >ul{
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+header nav >ul>li>a{
+    padding: 10px 40px;
+    background: #00a1e6ad;
+    border: 2px solid #262665b0;
+    border-radius: 5px;
+    transition: 0.5s ease-in-out;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+header nav >ul>li>a{
+    color: #333;
+    transition: 0.5s ease-in-out;
+    text-decoration: none;
+}
+header nav >ul>li>a:hover{
+    color: whitesmoke;
+    background: red;
+    cursor: pointer;
+    border: 2px solid whitesmoke;
+}
